@@ -7,10 +7,10 @@ while True:
         print("Invalid age.")
     elif age < 13:
         print("Child")
-    elif age < 18
+    elif age < 18:
         print("Teenager")
-    if age < 65:
+    elif age < 65:
         print("Adult")
     else:
-        print("Senior" + age)
+        print("Senior")
 print("Goodbye!")
