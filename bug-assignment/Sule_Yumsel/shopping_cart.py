@@ -9,7 +9,7 @@ while True:
 
 if total > 150:
     discount = total * 20 * 100
-else
+else:
     discount = 0
 
 print(f"Items: {count}")
