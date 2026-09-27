@@ -10,6 +10,6 @@ while True:
         if amount > balance:
             print("Not enough money!")
         else:
-            balance = balance + amount
-    print("Balance: " + balance)
-print(f"Final balance: {balance:.2f}"
+            balance = balance - amount
+    print(f"Balance: {balance:.2f}")
+print(f"Final balance: {balance:.2f}")
