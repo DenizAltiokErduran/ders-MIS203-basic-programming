@@ -7,9 +7,14 @@ while True:
     if choice == "d":
         balance = balance + amount
     elif choice == "w":
-        if amount < balance:
+        if amount > balance:
             print("Not enough money!")
-        else
+        else:
             balance = balance - amount
     print(f"Balance: {balance:.2f}")
-print(f"Final balance: {balanse:.2f}")
+print(f"Final balance: {balance:.2f}")
+
+#Fixed all 3 bugs.
+#1. Added the missing : after "else"
+#2. Fixed the typo "balanse" -> "balance"
+#3. Changed < to > in the withdraw check so the program works correctly
