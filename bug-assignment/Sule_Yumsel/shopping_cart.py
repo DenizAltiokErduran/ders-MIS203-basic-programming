@@ -8,11 +8,14 @@ while True:
     count = count + 1
 
 if total > 150:
-    discount = total * 20 * 100
+    discount = total * 20/100
+    #yüzde kısmı hatalıydı
 else:
+    #burada iki nokta yoktu  
     discount = 0
 
 print(f"Items: {count}")
 print(f"Total: {total:.2f}")
-print(f"Discount: {discont:.2f}")
+print(f"Discount: {discount:.2f}")
+#discount olmalı (indirim)
 print(f"To pay: {total - discount:.2f}")
