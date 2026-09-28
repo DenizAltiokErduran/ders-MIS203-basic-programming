@@ -1,12 +1,14 @@
 correct_password = "basic203"
 attempts = 0
-while True
-    password = input("Enter password: ")
+while True:
+    password = input("enter password: ")
     attempts = attempts + 1
-    if password != correct_password:
-        print("Access granted!")
+    
+    if password ==correct_password:
+        print("access granted!")
         break
-    if attempts == 5:
+    elif attempts == 5:
         print("Too many attempts. Account locked.")
         break
-    print("Wrong password. " + (5 - attempts) + " attempts left.")
+    else:
+        print(f"Wrong password. {5 - attempts} attempts left.")
