@@ -4,15 +4,15 @@ while True:
     price = float(input("Enter item price (0 to finish): "))
     if price == 0:
         break
-    total = price
+    total += price
     count = count + 1
 
 if total > 150:
     discount = total * 15 / 100
-else
+else:
     discount = 0
 
-print("Items: " + count)
+print(f"Items: {count}")
 print(f"Total: {total:.2f}")
 print(f"Discount: {discount:.2f}")
 print(f"To pay: {total - discount:.2f}")
