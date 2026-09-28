@@ -5,9 +5,9 @@ while True:
     if text == "stop":
         break
     number = int(text)
-    if number % 2 == 1:
+    if number % 2 == 0:
         evens = evens + 1
     else:
         odds = odds + 1
-print("Even numbers: " + evens)
-print(f"Odd numbers: {odds})
+print(f"Even numbers: {evens}")
+print(f"Odd numbers: {odds}")
