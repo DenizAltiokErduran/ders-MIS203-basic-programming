@@ -4,9 +4,9 @@ while True:
     password = input("Enter password: ")
     attempts = attempts + 1
     if password == correct_password:
-        print("Access granted!)
+        print("Access granted!")
         break
-    if attempts > 5:
+    if attempts == 5:
         print("Too many attempts. Account locked.")
         break
-    print("Wrong password. " + (5 - attempts) + " attempts left.")
+    print("Wrong password. " + str(5 - attempts) + " attempts left.")
