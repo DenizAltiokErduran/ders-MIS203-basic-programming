@@ -7,12 +7,12 @@ while True:
     total = total + price
     count = count + 1
 
-if total < 150:
+if total > 150:
     discount = total * 20 / 100
 else:
     discount = 0
 
-print(f"Items: {count}"
+print(f"Items: {count}")
 print(f"Total: {total:.2f}")
-print(f"Discount: {discont:.2f}")
+print(f"Discount: {discount:.2f}")
 print(f"To pay: {total - discount:.2f}")
