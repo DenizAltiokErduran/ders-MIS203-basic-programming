@@ -1,10 +1,10 @@
 secret = 39
 tries = 0
 while True:
-    guess = input("Guess the number (1-100): ")
+    guess = int(input("Guess the number (1-100): "))
     tries = tries + 1
-    if guess > secret:
-        print("Too low!)
+    if guess < secret:
+        print("Too low!")
     elif guess > secret:
         print("Too high!")
     else:
