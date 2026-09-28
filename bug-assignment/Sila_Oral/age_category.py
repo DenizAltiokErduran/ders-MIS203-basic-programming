@@ -9,8 +9,8 @@ while True:
         print("Child")
     elif age < 18:
         print("Teenager")
-    if age < 65:
+    elif age < 65:
         print("Adult")
-    else
-        print("Senior" + age)
+    else:
+        print("Senior")
 print("Goodbye!")
