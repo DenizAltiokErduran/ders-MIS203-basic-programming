@@ -7,9 +7,9 @@ while True:
     if choice == "d":
         balance = balance + amount
     elif choice == "w":
-        if amount < balance:
+        if amount > balance:
             print("Not enough money!")
-        else
+        else:
             balance = balance - amount
     print(f"Balance: {balance:.2f}")
-print(f"Final balance: {balanse:.2f}")
+print(f"Final balance: {balance:.2f}")
