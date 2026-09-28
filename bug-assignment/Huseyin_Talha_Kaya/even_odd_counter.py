@@ -4,10 +4,10 @@ while True:
     text = input("Enter a number (done to finish): ")
     if text == "done":
         break
-    number = text
-    if number % 2 == 0
+    number = int(text)
+    if number % 2 == 0:
         evens = evens + 1
     else:
-        evens = evens + 1
+        odds = odds + 1
 print(f"Even numbers: {evens}")
 print(f"Odd numbers: {odds}")
