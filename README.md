@@ -4,6 +4,3 @@
 
 Course repository for in-class assignments.
 
-## Assignments
-
-* [Bug Assignment](bug-assignment/) – fix the bugs in your own program and send a pull request.
